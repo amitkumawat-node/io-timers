@@ -14,7 +14,7 @@ const ioTimers = IoTimers({ host: 'localhost', port: 6379 });
 `uri` is a string like `localhost:6379` where your redis server
 is located. For a list of options see below.
  
-### adapter(opts)
+### IoTimers(opts)
  
 The following options are allowed:
  
