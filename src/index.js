@@ -20,7 +20,7 @@ function createRedisClient(uri, opts) {
 }
 
 function createIoTImer(uri, opts = {}) {
-    if (typeof uri === "object") {
+    if (uri && typeof uri === "object") {
         opts = uri;
         uri = null;
     }
