@@ -1,6 +1,6 @@
 {
     "name": "io-timers",
-    "version": "1.0.4",
+    "version": "1.0.6",
     "description": "Timers Using Redis",
     "main": "./src/index.js",
     "scripts": {
@@ -15,8 +15,7 @@
     "author": "Amit Kumawat",
     "license": "ISC",
     "dependencies": {
-        "ioredis": "^4.24.2",
-        "np": "^7.4.0"
+        "ioredis": "^4.24.2"
     },
     "repository": {
         "type": "git",

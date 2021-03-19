@@ -41,7 +41,7 @@ ioTimers.startTimer("abcTimerId", 10);
 Returns remaining time of particular timerId.
  
 ```js
-let remaingTime = await ioTimers.remainingTimer("abcTimerId");
+let remainingTime = await ioTimers.remainingTimer("abcTimerId");
 ```
  
 ### IoTimers#stopTimer(timerId: String)

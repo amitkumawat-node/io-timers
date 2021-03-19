@@ -33,7 +33,7 @@ class IoTimer {
         this.requests = new Map();
         this.pubClient = opts.pubClient || createRedisClient(uri, opts);
         this.subClient = opts.subClient || createRedisClient(uri, opts);
-        this.prefix = opts.prefix || "io-timers";
+        this.prefix = opts.key || "io-timers";
         const onError = (err) => {
             if (err) {
                 this.timers.emit("error", err);
